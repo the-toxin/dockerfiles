@@ -8,7 +8,7 @@ This Dockerfile builds 1C Web Client image.
 
 * Get 1Cv8.3 packets (`1c-enterprise*-common_*_amd64.deb`, `1c-enterprise*-server_*_amd64.deb`, `1c-enterprise*-ws_*_amd64.deb`) for Debian
 * Copy files to a directory with Dockerfile
-* If you need image with custom `.vrd` replace `default.vrd` then run (8.3.15-1830 - 1C packets version):
+* If you need image with custom `.vrd` replace `default.vrd` then run (8.3.15-1830 - 1C packet version,1c-enterprise*_8.3.15-1830_amd64.deb):
 
 ```shell
     docker build --build-arg CUSTOM_VRD=true \
