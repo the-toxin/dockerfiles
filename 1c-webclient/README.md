@@ -32,7 +32,7 @@ This Dockerfile builds 1C Web Client image.
 ```shell
    docker run -d \
               --name my_1c-webclient \
-              --restart=always
+              --restart=always \
               -p 8080:80 \
               1c-webclient:8.3.15-1830
 ```
